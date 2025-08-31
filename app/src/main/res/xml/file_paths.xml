@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Share the entire Pictures directory (for your SurveyApp folder) -->
+    <external-path name="external_files" path="Pictures/" />
+
+    <!-- Share app's external files directory -->
+    <external-files-path name="my_files" path="." />
+
+    <!-- Share app's internal files directory -->
+    <files-path name="internal_files" path="." />
+
+    <!-- Share cache directory -->
+    <cache-path name="cache" path="." />
+
+    <!-- Root external storage (use carefully) -->
+    <external-path name="external_storage_root" path="." />
+
+</paths>
